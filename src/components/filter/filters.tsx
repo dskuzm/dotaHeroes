@@ -84,6 +84,17 @@ const Filters: React.FC<FiltersProps> = ({
             }
             label={ATTRIBUTES["int"]}
           />
+          <FormControlLabel
+            control={
+              <Checkbox
+                color="secondary"
+                checked={attrFilter.includes("all")}
+                onChange={() => handleAttrFilterChange("all")}
+                value="all"
+              />
+            }
+            label={ATTRIBUTES["all"]}
+          />
         </FormGroup>
       </Grid>
       <Grid item xs={6}>
