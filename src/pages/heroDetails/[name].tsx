@@ -1,7 +1,7 @@
 // Core
 import React, { useState, useRef } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
+import NextLink from "next/link";
 
 // Elements
 import { Container, Typography, Button, Box } from "@mui/material";
@@ -185,13 +185,13 @@ const HeroDetails: React.FC = () => {
           )}
         </Box>
         <Box sx={{ pt: 14, pb: 14 }}>
-          <Link href="/" passHref>
+          <NextLink href="/" passHref>
             <Button variant="outlined" color="primary" size="large">
               <Typography variant="h5" component="span">
                 Back
               </Typography>
             </Button>
-          </Link>
+          </NextLink>
           <video className="lore-video" autoPlay loop muted>
             <source
               src={`https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${finalName}.webm`}
