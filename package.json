@@ -1,7 +1,7 @@
 {
   "name": "dota-heroes-app",
   "version": "0.1.0",
-  "homepage": "https://dskuzm.github.io/dotaHeroes/dota-heroes-app/",
+  "homepage": "https://dskuzm.github.io/dota-heroes-app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
