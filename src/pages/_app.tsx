@@ -13,7 +13,7 @@ import "../styles/globals.css";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#ff6046",
+      main: "#cdcdcd",
       contrastText: "#cdcdcd",
     },
     secondary: {
