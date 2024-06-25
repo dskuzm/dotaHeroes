@@ -160,7 +160,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #cdcdcd;
   background: #000000;
 }
 
@@ -203,7 +203,6 @@ a {
   right: 20vh;
   width: 70vh;
   height: 100vh;
-  z-index: -2;
 }
 
 .lore-video {
