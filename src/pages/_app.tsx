@@ -12,6 +12,7 @@ import "../styles/globals.css";
 
 const theme = createTheme({
   palette: {
+    mode: 'dark',
     primary: {
       main: "#cdcdcd",
       contrastText: "#cdcdcd",
@@ -21,7 +22,7 @@ const theme = createTheme({
       contrastText: "#cdcdcd",
     },
     background: {
-      default: "#f0f0f0",
+      default: "#000000",
       paper: "#cdcdcd",
     },
     text: {
