@@ -1,6 +1,9 @@
 # dotaHeroes
 Dota 2 heroes
 
+Online Demo
+You can view a live demo of the project by visiting [this link](https://dskuzm.github.io/dotaHeroes/).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
